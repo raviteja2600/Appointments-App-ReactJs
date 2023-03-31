@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.list-container {
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 576px) {
+  .list-container {
+    min-width: 220px;
+    margin-left: 10px;
+  }
+}
+.list-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #171f46;
+  margin: 0px;
+  margin-right: 10px;
+}
+.star-button {
+  outline: none;
+  background-color: transparent;
+  border-style: none;
+  padding: 0px;
+  cursor: pointer;
+}
+.star-image {
+  height: 17px;
+}
+.appointment-date {
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #b5b7c4;
+  font-weight: 500;
+}
